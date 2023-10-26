@@ -18,7 +18,7 @@ It is The process of evaluating and verifying that a software product or applica
 -> is an activity to detect and idetify the defects in the software.
 -> to release a quality product to the client.
 
-#### Software Qualtiy
+### Software Qualtiy
 Based on some parameters we can say our software is a quality softwware or not, that are:
 
 -> Bug-free
@@ -29,7 +29,7 @@ Based on some parameters we can say our software is a quality softwware or not, 
 
 A quality product does precisely what the users want it to do.
 
-# Project & Product
+### Project & Product
 
 Project: If the software application is developed for specific customer based on the requirement then it is called a Project.
 Service based company mainly deals with different projects, or clients, for ex: TCS, Infosis, Accenture, and they will work for n number of customers thought the world.
@@ -37,14 +37,14 @@ Service based company mainly deals with different projects, or clients, for ex: 
 Product: If the software is developed for multiple customers based on market requirements then it is called a Product.
 Product based company, devlops products based on market req, for ex. google(Docs, Maps,gmail), Microsoft(MS Word, Ms office), Orcale.
 
-# Error, Bug/Defect & Failure
+### Error, Bug/Defect & Failure
 
 -> Error: Any incorrect human action that produces a problem in the system is called an error.
 (normally committed by the develpoers)
 -> Defect/Bug: Deviation from the expected behavior to the actual behavior of the system is called defect.
-(are identified by the testers)
+(are identified by the testers, at the time of testing phase)
 -> Failure: The deviation identified by end-user while using the system is called a failure.
-(are found in the pr
+(failure will be there in customer environment)
 
 
 
