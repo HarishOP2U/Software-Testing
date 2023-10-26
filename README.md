@@ -15,7 +15,9 @@ Types:
 It is The process of evaluating and verifying that a software product or application does what it is supposed to do.
 
 -> is a part of software development process.
+
 -> is an activity to detect and idetify the defects in the software.
+
 -> to release a quality product to the client.
 
 ### Software Qualtiy
@@ -41,10 +43,8 @@ Product based company, devlops products based on market req, for ex. google(Docs
 
 -> Error: Any incorrect human action that produces a problem in the system is called an error.
 (normally committed by the develpoers)
-
 -> Defect/Bug: Deviation from the expected behavior to the actual behavior of the system is called defect.
 (are identified by the testers, at the time of testing phase)
-
 -> Failure: The deviation identified by end-user while using the system is called a failure.
 (failure will be there in customer environment)
 
