@@ -41,8 +41,10 @@ Product based company, devlops products based on market req, for ex. google(Docs
 
 -> Error: Any incorrect human action that produces a problem in the system is called an error.
 (normally committed by the develpoers)
+
 -> Defect/Bug: Deviation from the expected behavior to the actual behavior of the system is called defect.
 (are identified by the testers, at the time of testing phase)
+
 -> Failure: The deviation identified by end-user while using the system is called a failure.
 (failure will be there in customer environment)
 
