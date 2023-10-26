@@ -65,10 +65,9 @@ Product based company, devlops products based on market req, for ex. google(Docs
 -> Changing requirements
 
 -> Lack of skilled testers
+___
 
-
-
-
+### SDLC - Software Development Life Cycle
 
 
 
