@@ -2,7 +2,7 @@
 Learning....
 
 
-# Manual Testing
+## Manual Testing
 
 Software: A set of instrcutions, data or programs used to operate computers and execute specific tasks.
 
@@ -11,14 +11,14 @@ Types:
 2. Programming Software (Compiler, Debuggers, Interpreters, etc.)
 3. Application Software (Web Applicaion, Mobile Apps, Desktop Applications etc.)
 
-# Software Testing:
+### Software Testing:
 It is The process of evaluating and verifying that a software product or application does what it is supposed to do.
 
 -> is a part of software development process.
 -> is an activity to detect and idetify the defects in the software.
 -> to release a quality product to the client.
 
-# Software Qualtiy
+#### Software Qualtiy
 Based on some parameters we can say our software is a quality softwware or not, that are:
 
 -> Bug-free
