@@ -234,6 +234,7 @@ ___
 
 ## Dynamic testing techniques
 ### Levels of Software Testing
+
 1. Unit testing
 
    (A unit is a single component or the modlue of a software.)
@@ -249,7 +250,7 @@ ___
    2. Control structure testing(Conditional coverage; Loops Coverage)
    3. Mutation Testing
    
-3. Integration testing
+2. Integration testing
 
    -> It performed between 2 or more modules.
 
@@ -259,6 +260,7 @@ ___
 
    Types:
    1. Incremental IT
+      
       Incrementaly adding the modules and testing the data flow between the modules.
       
       Approaches:
@@ -279,7 +281,7 @@ ___
       
       -> If you find any defect, we can't understand the root cause of it.
             
-4. System testing
+3. System testing
 
    (The actual area where testers are involved)
 
@@ -299,7 +301,7 @@ ___
    • Non-Functional Testing
    • Usability Testing
    
-6. UAT
+4. UAT
    
    After completion of system testing UAT team conducts acceptance testing in two levels.
    
