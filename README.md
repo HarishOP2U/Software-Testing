@@ -335,6 +335,32 @@ P - Product -- QE
 
 -> QA for entire life cycle; QC for testing part in SDLC
 ___
+___
+
+## System Testing Types
+
+### 1. GUI Testing
+
+-> GUI mainly focuses on front end part, the UI part.
+
+-> where ever the user is interacting with the application part is called front end part.
+
+-> Graphical User-interface Testing or GUI testing is a process of testing the user interface of an application.
+
+-> A graphical user interface includes all the elements such as menus, checkbox, buttons, colors, fonts, sizes, icons, content, and images.
+
+-> refer to the documentation for testing, don't assume the functionalities.
+
+### 2. Usablility Testing
+
+-> During this testing validates application provided context sensitive help or not to the user.
+
+-> Checks how easily the end users are able to understand and operate the application is called usability testing.
+
+(Help menu, User manual)
+
+### 3. Functional Testing
+
 
 
 
