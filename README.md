@@ -166,7 +166,7 @@ These documents can not be understood by the developers and testers, so based on
 
 ->Correctness and completeness of document the document is tested in the for of Review.
 
-### Static Testing
+#### Static Testing
 
 Testing the project related documents in the form of Review, Walkthrough and inspection.
 
@@ -178,9 +178,167 @@ Testing the project related documents in the form of Review, Walkthrough and ins
 
 -> (System Testing -- Black Box testing)
 
-### Dynamic Testing
+#### Dynamic Testing
 
 testing the actual software using techniques; Unit testing, Integration, System testing, UAT(user acceptance testing)
+
+### Verification & Validation
+
+#### Verification 
+
+checks whether we are building the right product (Focus on Documentation)
+
+-> Verification typically involves (static testing);
+Reviews; Walkthroughs; Inspections
+
+#### Validation 
+
+checks whether we are building the product right.
+
+-> Takes place after verifications are completed.
+
+-> Focus on Software
+
+-> Validation typically involves actual testing.;
+Unit testing; integration; system testing; UATtesting.
+
+### Advantages
+-> Testing is involved in each and every phase.
+
+### Disadvantages
+-> Documentation is more.
+
+-> Initial investment is more.
+___
+### Static testing techniques
+
+1. Review:
+   Conducts on documents to ensure correctness and completeness.(ex;Requirement Reviews, Design Reviews, Code Reviews, Test plan reviews, Test cases reviews etc)
+
+2. Walkthrough
+   It is a informal review.
+   
+   -> Author reads the documents or code and discuss with peers.
+   
+   -> It’s not pre-planned and can be done whenever required.
+   
+   -> Also walkthrough does not have minutes of the meet.
+    
+4. Inspection
+   Its a most formal review type. In which at least 3- 8 people will sit in the meeting.
+   1. reader
+   2. writer
+   3. moderator plus concerned.
+  
+-> Inspection will have a proper schedule which will be intimated via email to the concerned developer/tester.
+
+### Dynamic testing techniques
+#### Levels of Software Testing
+1. Unit testing
+
+   (A unit is a single component or the modlue of a software.)
+
+   -> It conducts on a single program or single module.
+   
+   -> It is white box testing technique.
+   
+   -> It is conducted by the developers.
+
+   -> Unit testing techniques:
+   1. Basis path testing
+   2. Control structure testing(Conditional coverage; Loops Coverage)
+   3. Mutation Testing
+   
+3. Integration testing
+
+   -> It performed between 2 or more modules.
+
+   -> It focuses on checking data communication between multiple modules.
+
+   -> It is white box testing technique.
+
+   Types:
+   1. Incremental IT
+      Incrementaly adding the modules and testing the data flow between the modules.
+      
+      Approaches:
+      
+      Top Down: Ensure the module added is the child of previous module.
+      
+      Bottom-UP: Ensure the module added is the Parent of previous module.
+
+      Sandwich/Hybrid: Combination of Top-Down & Bottom Up approach.
+      
+   2. Non-Incremental IT
+
+      Adding all the modules in a single shot and test the data flow between modules.
+      
+      we usually don't prefer it coz of the following draw backs.
+      
+      -> We might misss the data floe between some of the modules.
+      
+      -> If you find any defect, we can't understand the root cause of it.
+            
+4. System testing
+
+   (The actual area where testers are involved)
+
+   Testing over all functionality of the application with respective client requirements.
+
+   -> It is a black box testing technique.
+
+   -> It is conducted by testing team.
+
+   -> After completion of component and integration level testing’s we start System testing.
+
+   -> Before conducting system testing we should know the customer requirements.
+
+   -> System Testing focusses on below aspects:
+   • User Interface Testing (GUI)
+   • Functional Testing
+   • Non-Functional Testing
+   • Usability Testing
+   
+6. UAT
+   
+   After completion of system testing UAT team conducts acceptance testing in two levels.
+   
+   -> Alpha testing: users will do testing in development/Testing environment
+   
+   -> Beta testing: users will install that software in there devices i.e, customer environmet and will perform the testing.
+   
+___
+
+### QA & QC & QE
+
+(Quality Assurance; Quality Control; Quality Engineering)
+
+P - People -- QC(Testers)
+
+P - Process -- QA
+
+P - Product -- QE 
+
+(In QE people are writing the code to test the software, that also comes under QC)
+
+#### QA Vs QC
+
+-> QA is Process related; QC is the actual testing of the software.
+
+-> QA focuses on building in quality; QC focuses on testing for quality.
+
+-> QA is preventing defects; QC is detecting defects.
+
+-> QA is process oriented; QC is Product oriented.
+
+-> QA for entire life cycle; QC for testing part in SDLC
+___
+
+
+
+
+
+
 
 
 
