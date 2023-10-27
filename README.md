@@ -67,7 +67,7 @@ Product based company, devlops products based on market req, for ex. google(Docs
 -> Lack of skilled testers
 ___
 
-### SDLC - Software Development Life Cycle
+## SDLC - Software Development Life Cycle
 
 SDLC is a process used by the software industry to design, develop and test high quality softwares.
 
@@ -79,7 +79,7 @@ SDLC is a process used by the software industry to design, develop and test high
 4. Testing (different type of testing is done).
 5. Maintenance (we deploy the software in customer environment and they start using it).
 
-### Waterfall Model
+## Waterfall Model
 
 <img width="313" alt="Screenshot 2023-10-26 163320" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/71060573-fb2f-403e-bccd-89ef85a0d040">
 
@@ -112,7 +112,7 @@ Documentation plays very important role in this model i.e, we will document each
 high investment.
 4. Testing will start only after coding.
 
-### Spiral Model
+## Spiral Model
 
 <img width="382" alt="Screenshot 2023-10-26 163511" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/ab6a203a-1ae7-4358-80ff-1e271bcd1800">
 
@@ -154,7 +154,7 @@ So it is also called version control model.
  
  initial requirements from the customer --> make the Prototype --> Customer(if satisfied)--> design, coding,testing..
 
-### V-Model / VV-Model
+## V-Model / VV-Model
 
 <img width="427" alt="Screenshot 2023-10-26 170415" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/d951716e-9367-4a16-8a4c-88e8a0ffbf01">
 
@@ -210,7 +210,7 @@ Unit testing; integration; system testing; UATtesting.
 
 -> Initial investment is more.
 ___
-### Static testing techniques
+## Static testing techniques
 
 1. Review:
    Conducts on documents to ensure correctness and completeness.(ex;Requirement Reviews, Design Reviews, Code Reviews, Test plan reviews, Test cases reviews etc)
@@ -232,8 +232,8 @@ ___
   
 -> Inspection will have a proper schedule which will be intimated via email to the concerned developer/tester.
 
-### Dynamic testing techniques
-#### Levels of Software Testing
+## Dynamic testing techniques
+### Levels of Software Testing
 1. Unit testing
 
    (A unit is a single component or the modlue of a software.)
@@ -309,7 +309,7 @@ ___
    
 ___
 
-### QA & QC & QE
+## QA & QC & QE
 
 (Quality Assurance; Quality Control; Quality Engineering)
 
