@@ -361,7 +361,28 @@ ___
 
 ### 3. Functional Testing
 
+Functionality is nothing but behaviour of application.
 
+(Functional testing talks about how your feature should work according to the customer requirements)
+
+-> Object Properties Testing:
+
+checks the properties of the objects present on the application. Ex; Enable, disable, visible, Focused, etc.
+   
+-> Database Testing/Backend testing:
+
+DML(data manipulation language) Operations
+
+checking database operations w.r.t user operations
+
+Includes white box testing at UI Part and Black box testing at the backend on database (insert, delete, update, select,..) so it is called Grey Box Testing.
+
+Table & column level validation( Column type, column lenght, number of columns..) , Relation between the table (Normalization) , Functions , Precedures , Triggers , Indexes , view , etc....
+ 
+>> Error Handling
+>> Calculations/Manipulations Testing
+>> Links Existence & Links Execution
+>> Cookies & Sessions 
 
 
 
