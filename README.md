@@ -554,4 +554,58 @@ Testing the overall functionalities of the system including the data integration
 - For example; Baidu.com supports only the Chinese language and can be accessed only by people from a few countries. Hence it is a localized product
 ___
 
+## Test Data Design Techniques/Test Case Design Techniques
+
+Used to prepare data for testing
+
+1. Reduce the Data
+
+2. More Coverage
+
+>> These are the 5 Techniques we use to prepare the data 
+>> To reduce the data and increase the coverage at the same time
+
+### Equivalence Class Partitioning(ECP)
+
+Partition data into various classes and we can select data according to class and then test. It reduces the number of test cases and saves time in testing.
+
+- value check(1 value form a class)
+- classify/divide/partition the data into multiple classes
+
+### Boundary Value Analysis(BVA)
+
+The BVA technique is used to check the Boundaries of the input.
+
+- checks only boundary value (Min, Min+1, Min-1; Max, Max+1, Max-1)
+
+>> #### Input Domain Testing
+>> The value will be verified in the text box/input fields.
+>> We use ECP & BVA techniques.
+
+### Decision Table
+
+- If we have more number of conditions /actions then we use the decision table technique.
+- Here, we deal with combinations of inputs. 
+- Here, we consider conditions and actions.
+
+### State Transition
+
+- In the State Transition technique changes in input conditions change the state of the Application.
+- This testing technique allows the tester to test the behavior of an AUT. 
+- The tester can perform this action by entering various input conditions in a sequence. 
+- In the State transition technique, the testing team provides positive as well as negative input test values for evaluating the system behavior.
+
+### Error Guessing
+
+Error guessing is one of the testing techniques used to find bugs in a software application based on a tester’s prior experience. 
+- In Error guessing we don’t follow any specific rules.
+- It depends on Tester's Analytical skills and experience.
+- Some of the examples are:
+    - Submitting a form without entering values.
+    - Entering invalid values such as entering alphabets in the numeric field
+___
+
+
+
+
 
