@@ -604,6 +604,96 @@ Error guessing is one of the testing techniques used to find bugs in a software 
     - Submitting a form without entering values.
     - Entering invalid values such as entering alphabets in the numeric field
 ___
+___
+## Software Testing Life Cycle (STLC)
+
+1. Requirement Analysis
+2. Test Planning
+3. Test Designing/ TestCase Development
+4. Test Execution/ Environment Setup
+5. Defect/Bug Reporting & Tracking
+6. Test Closure
+
+![Screenshot 2023-10-28 185534](https://github.com/HarishOP2U/Software-Testing/assets/149035972/05bb3395-b818-41f4-930d-6e1e3da4c0a2)
+___
+
+## Test Plan
+
+A Test Plan is a document that describes the test scope, test strategy, objectives, schedule, deliverables, and resources required to perform testing for a software product.
+
+- Overview
+  - Scope
+  - Inclusions
+- Test Environments
+- Exclusions
+- Test Strategy
+- Defect Reporting Procedure
+- Roles/Responsibilities
+- Test Schedule
+- Test Deliverables
+- Pricing
+- Entry and Exit Criteria
+- Suspension and Resumption Criteria
+- Tools
+- Risks and Mitigations
+- Approvals
+
+## Use Case, Test Scenario & Test Case
+
+-> Use Case: 
+
+- Use case describes the requirement. 
+- Use case contains THREE Items.
+   - Actor, which is the user, which can be a single person or a group of people, interacting with a process.
+   - Action, which is to reach the final outcome.
+   - Goal/Outcome, which is the successful user outcome.
+   - 
+-> Test Scenario:
+
+- A possible area to be tested (What to test)
+- tells what to test
+  
+-> Test Case: 
+
+- Step-by-step actions to be performed to validate the functionality of AUT (How to test).
+- Test case contains test steps, expected result & actual result.
+
+>> Use Case – Describes functional requirement, prepared by Business 
+Analyst(BA).
+>> Test Case – Describes Test Steps/ Procedure, prepared by Test Engineer.
+>> Test Scenario is ‘What to be tested’ and Test Case is ‘How to be tested.
+>> Test Suite is a group of test cases that belongs to the same category
+
+## Test Case
+
+A Test Case is a set of actions executed to validate a particular feature or functionality of your software application.
+
+- Test Case ID 
+- Test Case Title
+- Description
+- Pre-condition
+- Priority ( P0, P1,P2,P3) – order
+- Requirement ID
+- Steps/Actions 
+- Expected Result
+- Actual Result
+- Test data
+
+## Requirement Traceability Matrix(RTM)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
