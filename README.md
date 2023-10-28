@@ -315,25 +315,20 @@ ___
 
 (Quality Assurance; Quality Control; Quality Engineering)
 
-P - People -- QC(Testers)
-
-P - Process -- QA
-
-P - Product -- QE 
+- P - People -- QC(Testers)
+- P - Process -- QA
+- P - Product -- QE 
 
 (In QE people are writing the code to test the software, that also comes under QC)
 
 #### QA Vs QC
 
--> QA is Process related; QC is the actual testing of the software.
+- QA is Process related; QC is the actual testing of the software.
+- QA focuses on building in quality; QC focuses on testing for quality.
 
--> QA focuses on building in quality; QC focuses on testing for quality.
-
--> QA is preventing defects; QC is detecting defects.
-
--> QA is process oriented; QC is Product oriented.
-
--> QA for entire life cycle; QC for testing part in SDLC
+- QA is preventing defects; QC is detecting defects.
+- QA is process oriented; QC is Product oriented.
+- QA for entire life cycle; QC for testing part in SDLC
 ___
 ___
 
@@ -341,15 +336,11 @@ ___
 
 ### 1. GUI Testing
 
--> GUI mainly focuses on front end part, the UI part.
-
--> where ever the user is interacting with the application part is called front end part.
-
--> Graphical User-interface Testing or GUI testing is a process of testing the user interface of an application.
-
--> A graphical user interface includes all the elements such as menus, checkbox, buttons, colors, fonts, sizes, icons, content, and images.
-
--> refer to the documentation for testing, don't assume the functionalities.
+- GUI mainly focuses on front end part, the UI part.
+- where ever the user is interacting with the application part is called front end part.
+-  Graphical User-interface Testing or GUI testing is a process of testing the user interface of an application.
+- A graphical user interface includes all the elements such as menus, checkbox, buttons, colors, fonts, sizes, icons, content, and images.
+- refer to the documentation for testing, don't assume the functionalities.
 
 ### 2. Usablility Testing
 
@@ -361,37 +352,99 @@ ___
 
 ### 3. Functional Testing
 
-Functionality is nothing but behaviour of application.
+Functionality is nothing but behavior of application.
 
 (Functional testing talks about how your feature should work according to the customer requirements)
 
--> Object Properties Testing:
+=> Object Properties Testing:
 
-checks the properties of the objects present on the application. Ex; Enable, disable, visible, Focused, etc.
+  - checks the properties of the objects present on the application. Ex; Enable, disable, visible, Focused, etc.
    
--> Database Testing/Backend testing:
+=> Database Testing/Backend testing:
 
 DML(data manipulation language) Operations
 
-checking database operations w.r.t user operations
-
-Includes white box testing at UI Part and Black box testing at the backend on database (insert, delete, update, select,..) so it is called Grey Box Testing.
-
-Table & column level validation( Column type, column lenght, number of columns..) , Relation between the table (Normalization) , Functions , Precedures , Triggers , Indexes , view , etc....
+   - checking database operations w.r.t user operations
+    
+   - Includes white box testing at UI Part and Black box testing at the backend on database (insert, delete, update, select,..) so it is called Grey Box Testing.
+   
+   - Table & column level validation( Column type, column lenght, number of columns..) , Relation between the table (Normalization) , Functions , Precedures , Triggers , Indexes , view , etc....
  
->> Error Handling
->> Calculations/Manipulations Testing
->> Links Existence & Links Execution
->> Cookies & Sessions 
+=> Error Handling
+  
+- Tester verify the error messages while performing incorrect actions on the application.
+  
+- Error messages should be readable( in user understandable/simple language)
 
+=> Calculations/Manipulations Testing
 
+checking if the calculations are done properly or not
 
+=> Links Existence & Links Execution
 
+Where exactly the links are placed ---- links existence
 
+Links are navigating to proper page or not --- Link execution
 
+- Internal Links: Navigate to different section but same page
+- External Links: Navigate to some other page
+- Broken Links: Navigates Nowhere/ Doesn't have any target page (Placed for future implementation)
 
+=> Cookies & Sessions 
 
+Cookies are the temporary files created by browser while browsing the pages through internet.
 
+Sessions are time slots created by the server and sessions will expire after some time (if you are idle for some time).
 
+### Non-Functional Testing
+
+Mainly focusing on customer expectations
+
+=> Performance testing
+
+Speed of the application
+   
+   1. Load testing 
+
+   Increasing the load on the application slowly then check the speed of the application (creating virtual users and hit requests to the server).
+   
+   2. Stress testing
+
+   Suddenly increase/decrease the load on the application and check the speed of the application
+   
+   3. Volume testing
+
+   Check how much data is able to handle by the application.
+ 
+=> Security testing
+
+How secure our application is.
+
+  - Authentication: Users are valid or not.
+  - Authorization/Access Control: Permissions of the valid users.
+
+=> Recovery testing
+
+checks the system change to abnormal to normal
+
+=> Compatibility testing
+
+  - Forward compatibility
+  - Backward compatibility
+  - Hardware compatibility
+
+=> Installation testing
+ 
+  - Screens are clear to understand
+  - simple or not
+  - Un-installation
+
+=> Sanitation/Garbage testing
+
+If any application provides any extra features/functionality then we consider them as bug.
+
+![Screenshot 2023-10-28 123615](https://github.com/HarishOP2U/Software-Testing/assets/149035972/73d7c9f8-7f94-4f37-ad2a-58a76bfb7cfd)
+
+___
 
 
