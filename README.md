@@ -545,7 +545,7 @@ Testing the overall functionalities of the system including the data integration
 - Different aspects of the software application are tested to ensure that it supports every language and different attributes.
 - It tests the different currency formats, mobile number formats, and address formats that are supported by the application.
 - For example; Facebook.com supports many languages and it can be accessed by people of different countries. Hence it is a globalized product.
-- 
+  
 #### Localization Testing:
 
 - Performed to check system or software application for a specific geographical and cultural environment. 
