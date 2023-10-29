@@ -681,12 +681,152 @@ A Test Case is a set of actions executed to validate a particular feature or fun
 
 ## Requirement Traceability Matrix(RTM)
 
+-> What is RTM (Requirement Traceability Matrix)?
 
+- RTM describes the mapping of Requirements with the Test cases.
+- The main purpose of RTM is to see that all test cases are covered so that no functionality should be missed while doing Software testing.
 
+ -> Requirement Traceability Matrix – Parameters include
 
+- Requirement ID
+- Req Description
+- Test case IDs
 
+## Test Environment
 
+-> exact replica of customer platform
 
+- Test Environment is a platform specially built for test case execution on the software product. 
+- It is created by integrating the required software and hardware along with proper network configurations.
+- Test environment simulates production/real-time environment.
+- Another name for a test environment is Test Bed
+
+## Test Execution
+
+-> During this phase test team will carry out the testing based on the test plans and the test cases prepared.
+
+-> Entry Criteria: Test cases, Test Data & Test Plan 
+
+-> Activities:
+
+   - Test cases are executed based on the test planning.
+   - Status of test cases are marked, like Passed, Failed, Blocked, Run, and others.
+   - Documentation of test results and log defects for failed cases is done.
+   - All the blocked and failed test cases are assigned bug IDs.
+   - Retesting once the defects are fixed.
+   - Defects are tracked till closure.
+
+-> Deliverables: Provides defect and test case execution report with completed results
+
+## Guidelines for Test Execution
+
+- The Build being deployed to the QA environment is the most important part of the test execution cycle.
+- Test execution is done in a Quality Assurance (QA) environment.
+- Test execution happens in multiple cycles.
+- The test execution phase consists of Executing the test cases + test scripts( if automation)
+
+## Defect/Bugs
+
+-> Any mismatched functionality found in an application is called as 
+Defect/Bug/Issue.
+
+-> During Test Execution Test engineers are reporting mismatches as defects to developers through templates or using tools.
+
+-> Defect Reporting Tools:
+   - Clear Quest
+   - DevTrack
+   - Jira
+   - Quality Center
+   - Bug Jilla etc.
+
+## Defect Classification
+
+### Severity 
+
+-> Severity describes the seriousness of the defect and how much impact on Business workflow. 
+
+-> Defect severity can be categorized into four class
+   
+   - Blocker(Show stopper): This defect indicates nothing can proceed further.
+      - Ex: Application crashed, Login Not Worked
+        
+   - Critical: The main/basic functionality is not working. Customer business workflow is broken. They cannot proceed further.
+      - Ex1: Fund transfer is not working in net banking
+      - Ex2: Ordering products in e-commerce application is not working.
+     
+   - Major: It causes some undesirable behavior, but the feature/application is still functional.
+      - Ex1: After sending the email there is no confirmation message
+      - Ex2: After booking a cab there is no confirmation.
+        
+   - Minor: It won't cause any major break-down of the system
+      - Ex: Look and feel issues, spellings, alignments.
+
+### Priority
+
+- Priority describes the importance of the defect.
+- Defect Priority states the order in which a defect should be fixed.
+- Defect priority can be categorized into three class
+   - P0 (High): The defect must be resolved immediately as it affects the system severely and cannot be used until it is fixed.
+   - P1 (Medium): It can wait until a new version/build is created
+   - P2 (Low): The developer can fix it in later releases
+
+>> - Defect Resolution (Developers view if it is a defect or not)
+>> - After receiving the defect report from the testing team, the development team conducts a review meeting to fix defects. Then they send a Resolution Type to the testing team for further 
+communication.
+>> - Accept; Reject; Duplicate; Enhancement, Need more info; As Designed.
+___
+
+## Defect/Bug Life Cycle
+
+![Screenshot 2023-10-29 171914](https://github.com/HarishOP2U/Software-Testing/assets/149035972/8adef347-5cb1-4822-8fcc-43f7bb3384a1)
+
+## Test Cycle Closure
+
+-> Activities
+
+   - Evaluate cycle completion criteria based on Time, Test coverage, Cost, Software, Critical Business Objectives, and Quality.
+   - Prepare test metrics based on the above parameters.
+   - Document the learning of the project
+   - Prepare Test summary report
+   - Qualitative and quantitative reporting of the quality of the work product to the customer.
+   - Test result analysis to find out the defect distribution by type and severity.
+     
+-> Deliverables
+
+   - Test Closure report
+   - Test metrics
+
+## QA/Testing Activities
+
+- Understanding the requirements and functional specifications of the application. 
+- Identifying required Test Scenario’s. 
+- Designing Test Cases to validate applications. 
+- Setting up Test Environment(Test Bed)
+- Execute Test Cases to a valid application 
+- Log Test results ( How many test cases pass/fail ).
+- Defect reporting and tracking. 
+- Retest fixed defects of the previous build 
+- Perform various types of testing in the application. 
+- Reports to Test Lead about the status of assigned tasks 
+- Participated in regular team meetings.
+- Creating automation scripts. 
+- Provides recommendations on whether or not the application/system is ready for production.
+
+## 7 Principles of Software Testing
+
+1. Start software testing at early stages. This means from the beginning when you get the requirements.
+2. Test the software in order to find the defects.
+3. Highly impossible to give bug-free software to the customer.
+4. Should not do Exhaustive testing. This means we should not use the same type of data for testing every time.
+5. Testing is context-based. This means deciding what types of testing should be conducted based on the type of application.
+6. We should follow the concept of the Pesticide Paradox. This means, that if you are executing the same cases for a longer run, they won't find any defects. We have to keep updating test cases in every 
+cycle/release in order to find more defects.
+7. We should follow defect clustering. This means some of the modules contain most of the defects. By experience, we can identify such risky modules. 80% of the problems are found in 20% of the modules
+
+___
+___
+
+## Manual Testing Project
 
 
 
