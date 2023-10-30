@@ -165,7 +165,7 @@ These documents can not be understood by the developers and testers, so based on
 
 -> Testing is performed on each stage of documentation.
 
-->Correctness and completeness of document The document is tested in the for of a Review.
+->Correctness and completeness of document The document is tested in the form of a Review.
 
 #### Static Testing
 
@@ -444,8 +444,7 @@ checks the system change from abnormal to normal
 
 If any application provides any extra features/functionality then we consider them as bugs.
 
-![Screenshot 2023-10-28 123615](https://github.com/HarishOP2U/Software-Testing/assets/149035972/73d7c9f8-7f94-4f37-ad2a-58a76bfb7cfd)
-
+![Screenshot 2023-10-28 123615](https://github.com/HarishOP2U/Software-Testing/assets/149035972/77ef0afa-5ceb-4028-8155-c44e4235333d)
 ___
 ## Software Testing Terminology
 
@@ -483,9 +482,9 @@ Whenever the developer fixes a bug, the tester will test the bug fix is called R
 - Smoke testing -- very very basic testing (build verification)
 - Sanity testing -- testing main functionalities
 
-![Screenshot 2023-10-28 131940](https://github.com/HarishOP2U/Software-Testing/assets/149035972/047e7ed9-cb87-4aeb-a048-63960363b983)
+![Screenshot 2023-10-28 131940](https://github.com/HarishOP2U/Software-Testing/assets/149035972/22742de2-1e96-4e7c-bbb7-ee7ff53f23b4)
 
-![Screenshot 2023-10-28 132135](https://github.com/HarishOP2U/Software-Testing/assets/149035972/2a721cf1-3315-4158-9ec7-a5ba7eb1723a)
+![Screenshot 2023-10-28 132135](https://github.com/HarishOP2U/Software-Testing/assets/149035972/2ce0ad43-201f-43ac-8b11-d4e092794b7d)
 
 ### 4. Exploratory Testing
 
@@ -520,7 +519,7 @@ Whenever the developer fixes a bug, the tester will test the bug fix is called R
 - Tester does not have knowledge of the application.
 - Suitable for gaming applications.
 
-![Screenshot 2023-10-28 134327](https://github.com/HarishOP2U/Software-Testing/assets/149035972/cff4c386-9e34-42c3-b5c7-17e8bb0b93f2)
+![Screenshot 2023-10-28 134327](https://github.com/HarishOP2U/Software-Testing/assets/149035972/8339721b-ec0b-40d8-b08a-c912f3f0e2ce)
 
 ### 7. Positive Testing
 
@@ -536,7 +535,7 @@ Whenever the developer fixes a bug, the tester will test the bug fix is called R
 
 Testing the overall functionalities of the system including the data integration among all the modules is called end-to-end testing.
 
-![Screenshot 2023-10-28 135859](https://github.com/HarishOP2U/Software-Testing/assets/149035972/385d25be-3420-48e0-a888-6b2a429a9c2c)
+![Screenshot 2023-10-28 135859](https://github.com/HarishOP2U/Software-Testing/assets/149035972/91df07a8-87af-49c7-b089-d996714845f8)
 
 ### 10. Globalization and Localization Testing
 
@@ -615,7 +614,7 @@ ___
 5. Defect/Bug Reporting & Tracking
 6. Test Closure
 
-![Screenshot 2023-10-28 185534](https://github.com/HarishOP2U/Software-Testing/assets/149035972/05bb3395-b818-41f4-930d-6e1e3da4c0a2)
+![Screenshot 2023-10-28 185534](https://github.com/HarishOP2U/Software-Testing/assets/149035972/b7063213-5d06-4b18-8ada-1a1073a9cd02)
 ___
 
 ## Test Plan
@@ -700,7 +699,7 @@ A Test Case is a set of actions executed to validate a particular feature or fun
 - Test Environment is a platform specially built for test case execution on the software product. 
 - It is created by integrating the required software and hardware along with proper network configurations.
 - Test environment simulates production/real-time environment.
-- Another name for a test environment is Test Bed
+- Another name for a test environment is a Test Bed
 
 ## Test Execution
 
@@ -779,7 +778,7 @@ ___
 
 ## Defect/Bug Life Cycle
 
-![Screenshot 2023-10-29 171914](https://github.com/HarishOP2U/Software-Testing/assets/149035972/8adef347-5cb1-4822-8fcc-43f7bb3384a1)
+![Screenshot 2023-10-29 171914](https://github.com/HarishOP2U/Software-Testing/assets/149035972/33e09cb6-68d8-4bbc-a170-759a23a94dda)
 
 ## Test Cycle Closure
 
@@ -829,12 +828,12 @@ ___
 
 ## Manual Testing Project
 
-Project  introduction
+Project  Introduction
 Understanding & Explore the Functionality (FRS)
 Test Plan
 Writing Test Scenarios
 Writing Test Case & Reviews
-Envirornment Setuo & Buid deployment
+Environment Setup & Buid deployment
 Test Execution
 Bug Reporting & Tracking
 Sanity Testing, Re-Testing & Regression Testing
