@@ -829,7 +829,7 @@ ___
 ## Manual Testing Project
 
 Project  introduction
-Understanding & Explore the Functionality
+Understanding & Explore the Functionality (FRS)
 Test Plan
 Writing Test Scenarios
 Writing Test Case & Reviews
