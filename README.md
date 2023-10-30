@@ -828,7 +828,16 @@ ___
 
 ## Manual Testing Project
 
-
+Project  introduction
+Understanding & Explore the Functionality
+Test Plan
+Writing Test Scenarios
+Writing Test Case & Reviews
+Envirornment Setuo & Buid deployment
+Test Execution
+Bug Reporting & Tracking
+Sanity Testing, Re-Testing & Regression Testing
+Test Sign off
 
 
 
