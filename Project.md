@@ -33,25 +33,36 @@
 
 Mockup screens are dummy screens which are designed before actual screen so based on that we can write some test cases
 
-### 3. Estimation
+> ### Estimation
+> How much time we need for:
+> - to understand the requirements
+> - to write test cases
+> - for execution
+> - to verify the bugs
 
-How much time we need for:
-- to understand the requirements
-- to write test cases
-- for execution
-- to verify the bugs
-
-### 4. Test Plan
+### 3. Test Plan
 
 [OpenCart+-Test+Plan.pdf](https://github.com/HarishOP2U/Software-Testing/files/13201545/OpenCart%2B-Test%2BPlan.pdf)
 
 -Scope
  - Inclusions
  - Test Environments
-- Exclusuions
+ - Exclusuions
 - Test Strategy
+- Defect Reporting Procedure
 - Roles/ Responsibilities
 - Test Schedule/ Deliverables
 - Tools
 - Risks and Mitigations
 - Approval
+
+### 4. Test Scenarios
+
+[OpenCart-Test+Scenarios+.xlsx](https://github.com/HarishOP2U/Software-Testing/files/13202898/OpenCart-Test%2BScenarios%2B.xlsx)
+
+-> area to be tested/ What to test
+
+### 5. Writing Test Cases, Reviews & RTM
+
+
+
