@@ -23,6 +23,8 @@
 
 ### 2. Understanding & Explore the Functionality (FRS)
 
+[OpenCart+-FRS.pdf](https://github.com/HarishOP2U/Software-Testing/files/13201544/OpenCart%2B-FRS.pdf)
+
 -> FRS gives an overview what exactly the project is
 
 -> Based on FRS we understand the Functionalities, and based on that we prepare test case, test scenarios
@@ -40,6 +42,8 @@ How much time we need for:
 - to verify the bugs
 
 ### 4. Test Plan
+
+[OpenCart+-Test+Plan.pdf](https://github.com/HarishOP2U/Software-Testing/files/13201545/OpenCart%2B-Test%2BPlan.pdf)
 
 -Scope
  - Inclusions
