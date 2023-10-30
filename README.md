@@ -71,7 +71,8 @@ ___
 
 SDLC is a process used by the software industry to design, develop, and test high-quality software.
 
-<img width="337" alt="Screenshot 2023-10-26 155638" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/cc81115a-a48a-45a1-8eb0-2adf2a7bbaef">
+<img width="337" alt="Screenshot 2023-10-26 155638" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/b8de1ff0-520c-4a4a-92b5-30df68c48360">
+
 
 1. Requirements Analysis (from customers).
 2. Design (designers will design the software(UI, Navigation)).
@@ -81,7 +82,7 @@ SDLC is a process used by the software industry to design, develop, and test hig
 
 ## Waterfall Model
 
-<img width="313" alt="Screenshot 2023-10-26 163320" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/71060573-fb2f-403e-bccd-89ef85a0d040">
+<img width="313" alt="Screenshot 2023-10-26 163320" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/7ae6f7b8-eb0c-4989-bd31-8894eb3bb1ee">
 
 In this model, we have to prepare documentation after every phase.
 Documentation plays a very important role in this model i.e., we will document each and every activity.
@@ -114,7 +115,7 @@ high investment.
 
 ## Spiral Model
 
-<img width="382" alt="Screenshot 2023-10-26 163511" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/ab6a203a-1ae7-4358-80ff-1e271bcd1800">
+<img width="382" alt="Screenshot 2023-10-26 163511" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/aa09dbb1-4e50-42eb-a23c-e0b64292c5e5">
 
 This model is especially suitable for product-based companies as the product is made on demand of market requirements. So based on customer requirements updates can be made.
 
@@ -156,7 +157,7 @@ So it is also called the version control model.
 
 ## V-Model / VV-Model
 
-<img width="427" alt="Screenshot 2023-10-26 170415" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/d951716e-9367-4a16-8a4c-88e8a0ffbf01">
+<img width="427" alt="Screenshot 2023-10-26 170415" src="https://github.com/HarishOP2U/Software-Testing/assets/149035972/fb0ee7d0-880e-45c8-add8-3212e26e0cd5">
 
 BRS: Business Requirement Specification; CRS: Customer Requirement Specification; URS: User Requirement Specification.
 
