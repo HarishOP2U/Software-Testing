@@ -66,7 +66,52 @@ Mockup screens are dummy screens which are designed before actual screen so base
 
 [OpenCart-TestCases.xlsx](https://github.com/HarishOP2U/Software-Testing/files/13204989/OpenCart-TestCases.xlsx)
 
-### Environment Setup & Build deployment
+### 6. Environment Setup & Build deployment
+
+- MySQL Database
+- Apache server
+
+- XAMPP: controlling database and server
+
+  1. Opencart download location
+  2. XAMPP for apache, mysql, and php installaton.
+  3. copy opencart folder(Step 1) in to below location.(C:\xampp\htdocs)
+  4. After copying rename the folder "opencart ".
+  5. Rename files
+   
+ Go to C:\xampp\htdocs\opencart\upload
+
+ Rename file 'config-dist.php' to 'config.php'
+
+ Go to C:\xampp\htdocs\opencart\upload\admin
+
+ Rename file 'config-dist.php' to 'config.php'
+
+   6. Connect to the database and create DB.
+   
+ DB Access URL: http://localhost/phpmyadmin/\
+
+   7. Open the site http://localhost/opencart/
+ 
+ Click on upload
+
+   8. Provide Database connection details
+
+ if there is error in installation do step 9
+   
+   9. Go to location C:\xampp\htdocs\opencart\upload
+Delete install folder
+
+   10. Go to Application URL
+
+  Frontend application URL: http://localhost/opencart/upload/
+
+  Backend Application url: http://localhost/opencart/upload/admin/
+
+### 7. Test Execution
+### 8. Bug Reporting & Tracking
+### 9. Sanity Testing, Re-Testing &Regression Testing
+### 10. Test Sign off
 
 
 
