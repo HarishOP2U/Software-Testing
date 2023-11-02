@@ -1,6 +1,6 @@
 # Automation Testing
 
-Perfroming the testing with help of tools is known as Automation Testing.
+Performing the testing with help of tools is known as Automation Testing.
 
 -> challanges in Manual testing 
 
