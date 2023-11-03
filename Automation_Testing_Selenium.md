@@ -35,6 +35,44 @@ initially, Automation was used to overcome these 2 challenges
 2. Reporting is not supported( TestNG, Extent reports).
 3. Cannot support Excel files( That's why we use Apache POI).
 4. Graphs and captcha can't be automated.
+___
+
+## Seleniunv WebDriver
+
+1. WebDriver is one of the component in selenium.
+2. WebDriver is an java interface.
+
+SearchContext(I): is the first interface
+
+|
+
+|
+
+WebDriver(I)
+
+- Firedoxbrowser ---- FirefoxDriver class
+- Chrome browser ---- ChromeDriver class
+- Edge browser ----- EdgeDriver class
+- IE ---- InternetExplorerDriver (deprecated)
+
+3. WebDriver is an API(Application programing interface)
+
+Request --> API --> Response
+
+>> Selenium is not a single tool, it contains multiple compoments; WebDriver, IDE, Grid.
+
+### Setup Webdriver in Eclipse
+
+1. Selenium client Library. (.jar)
+
+   - client Library --> Collection of jar files contains so many no. of classes + methods.
+   
+2. Browser Specific drivers. (.exe)
+
+- every browser have there own specific browsere specific driver.
+
+4. Browsers (chrome, edge, firefox..)
 
 
+   
 
