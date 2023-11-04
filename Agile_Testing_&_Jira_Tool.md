@@ -107,3 +107,25 @@ ___
 
 ## Jira Tool
 
+-> Jira is an Agile Management tool.
+
+### Agile scrum activities
+
+1. How to create a project in Jira.
+2. How to add users/people in Jira.
+3. How to create Backlog --> Epic.
+4. How to create stories in Jira & add story points.
+5. Creating sprint in Jira.
+6. Adding user stories to sprint.
+7. Starting sprint.
+8. Adding sub-tasks to the story.
+9. Sprint life cycle.
+
+### Test Management Activities (Zepyre)
+
+1. Test cases
+2. Test cycle
+3. Update test cases passed/failed/blocked
+4. Report bugs
+5. Reports
+   
