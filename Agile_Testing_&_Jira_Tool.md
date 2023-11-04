@@ -129,3 +129,8 @@ ___
 4. Report bugs
 5. Reports
    
+[Jira_step-by-step.pdf](https://github.com/HarishOP2U/Software-Testing/files/13255959/Jira_step-by-step.pdf)
+
+
+
+
