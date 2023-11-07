@@ -119,13 +119,29 @@ driver.findElement(By.name("username)).sendKeys("Admin");
 
 driver.findElement(By.name("username)).sendKeys("admin123");
 
+>> xpath : address of the elements
 
+//5) click on Login button
 
+driver.findElement(By.xpath(" paste xpath here"))
 
+//6) verify the title of dashboard page
 
+String actual= driver.getTitle();
 
+String expected= "OrangeHRM";
 
+if(actual.equals(expected))
 
+sout("test passsed")
+
+else
+
+sout("failed")
+
+//7) close browser
+
+driver.close();
 
 
 
