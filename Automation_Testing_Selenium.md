@@ -73,6 +73,59 @@ Request --> API --> Response
 
 4. Browsers (chrome, edge, firefox..)
 
+## Selenium WebDriver Script
 
+1. Launch browser
+2. open url
+	
+ https://opensource-demo.orangehrmlive.com/
+
+3. Provide username  - Admin
+4. Provide password  - admin123
+5. Click on Login button 
+6. Verify the title of dashboard page   
+
+ Exp title : OrangeHRM
+
+7. close browser
    
+--->
+
+--->
+
+//1) Launch browser
+
+//webDriver drive=new ChromeDriver();
+
+//WebDriver driver =new ChromeDriver();
+
+//2) Open URL on the browser
+
+Thread.sleep(5000) // 5sec in cae the browser is slow to load we use it 
+
+driver.get("URL");
+
+//3)Provide username - Admin
+
+webElement ext = driver.findElement(By.name("username"));
+
+text.sendKeys("Admin");
+
+                        OR
+
+driver.findElement(By.name("username)).sendKeys("Admin");
+
+//4) Provide password - admin123
+
+driver.findElement(By.name("username)).sendKeys("admin123");
+
+
+
+
+
+
+
+
+
+
 
